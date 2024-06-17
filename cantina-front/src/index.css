@@ -1,0 +1,130 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: cornsilk;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.menu-item img {
+    max-width: 100%;
+}
+
+.menu-item h2 {
+    font-size: 1.5em;
+}
+
+.menu-item p {
+    margin: 10px 0;
+}
+
+.menu-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-item button:hover {
+    background-color: #45a049;
+}
+
+/* Add these styles to src/index.css */
+.cart-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.cart-item img {
+    max-width: 100%;
+}
+
+.cart-item h2 {
+    font-size: 1.5em;
+}
+
+.cart-item p {
+    margin: 10px 0;
+}
+
+
+/* Add these styles to src/index.css */
+.cart-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.cart-item img {
+    max-width: 100%;
+}
+
+.cart-item h2 {
+    font-size: 1.5em;
+}
+
+.cart-item p {
+    margin: 10px 0;
+}
+
+.cart-item div {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.cart-item button:hover {
+    background-color: #45a049;
+}
+
+.cart-item span {
+    margin: 0 10px;
+}
+
+.cart-item button:last-of-type {
+    background-color: #f44336;
+}
+
+.cart-item button:last-of-type:hover {
+    background-color: #e53935;
+}
